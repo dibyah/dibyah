@@ -12,7 +12,7 @@ You can click the Preview link to take a look at your changes.
 # docker commands
 
 ### build an image
-    docker build --build-arg ALERT_GITHUB_PAT=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 --tag alert-api-service .
+    docker build --build-arg GITHUB_PAT=<GITHUB_PAT> --tag alert-api-service .
 
 ### run a container
     docker run -d -p 8000:5006 alert-api-service
@@ -25,3 +25,4 @@ You can click the Preview link to take a look at your changes.
 
 ### delete all images
     docker image prune -a -f
+
