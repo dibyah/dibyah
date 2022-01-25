@@ -27,3 +27,9 @@ You can click the Preview link to take a look at your changes.
     docker image prune -a -f
 
 ## https://grpc.io/docs/languages/go/basics/#setup
+
+
+## https://github.com/ZscalerCWP/cwp-tenant-mgmt-rest/blob/main/docker-compose.yaml
+
+# Kubernetes commands
+    kubectl config get-clusters
